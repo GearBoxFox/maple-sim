@@ -1,4 +1,4 @@
-package org.ironmaple.simulation.drivesims;
+package org.ironmaple.simulation.drivesims.swerve;
 
 import edu.wpi.first.math.geometry.Pose2d;
 import edu.wpi.first.math.geometry.Rotation2d;
@@ -10,6 +10,8 @@ import java.util.Arrays;
 import java.util.function.Supplier;
 import org.dyn4j.geometry.Vector2;
 import org.ironmaple.simulation.SimulatedArena;
+import org.ironmaple.simulation.drivesims.AbstractDriveTrainSimulation;
+import org.ironmaple.simulation.drivesims.GyroSimulation;
 import org.ironmaple.utils.mathutils.GeometryConvertor;
 
 /**

@@ -1,4 +1,4 @@
-package org.ironmaple.simulation.drivesims;
+package org.ironmaple.simulation.drivesims.swerve;
 
 import edu.wpi.first.math.MathUtil;
 import edu.wpi.first.math.estimator.SwerveDrivePoseEstimator;
@@ -12,6 +12,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.function.Supplier;
 import org.dyn4j.geometry.Vector2;
 import org.ironmaple.simulation.SimulatedArena;
+import org.ironmaple.simulation.drivesims.BrushlessMotorSim;
 
 /**
  *
