@@ -39,6 +39,15 @@ public class SwerveModuleFactory {
   private final double driveCurrentLimitAmps;
   private final DRIVE_WHEEL_TYPE driveWheelType;
 
+  /**
+   * <h2>Constructs a SwerveModuleFactory</h2>
+   *
+   * @param driveMotor The drive motor of the module.
+   * @param steerMotor The steer motor of the module.
+   * @param driveGearRatio The drive motor's gear reduction. Use one of the enum constants for simple setup.
+   * @param driveCurrentLimitAmps The drive motor's current limit in amps.
+   * @param driveWheelType The material of the driving wheel.
+   */
   public SwerveModuleFactory(DCMotor driveMotor,
                              DCMotor steerMotor,
                              double driveGearRatio,
